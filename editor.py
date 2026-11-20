@@ -13,8 +13,6 @@ from terminal import (RawMode, RESET, CLEAR, HOME, HIDE_CURSOR, SHOW_CURSOR,
 # Palette
 # --------------------------------------------------------------------------- #
 RESET_FG = "\x1b[39m"
-BOLD = "\x1b[1m"
-WHITE = "\x1b[97m"
 
 BG_TAB = "\x1b[48;5;238m"
 BG_TAB_ACTIVE = "\x1b[48;5;24m"

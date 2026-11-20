@@ -8,7 +8,6 @@ its start offset in the raw line (needed by the renderer to handle tabs).
 import re
 
 # ANSI colours
-RESET = "\x1b[0m"
 COLOR = {
     "plain": "\x1b[39m",
     "keyword": "\x1b[1;35m",   # bold magenta

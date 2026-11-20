@@ -157,9 +157,6 @@ class Buffer:
         parts.append(self.lines[er][:ec])
         return "\n".join(parts)
 
-    def clear_selection(self):
-        self.sel_anchor = None
-
     # ------------------------------------------------------------------ #
     # Editing
     # ------------------------------------------------------------------ #
